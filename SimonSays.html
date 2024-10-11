@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="STYLESHEET" href="Assignment2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="Game">
+        <div class="CentreCircle"></div>
+        <button id="start" onclick="StartGame()">Start</button>
+        <button class="Score" id="score">0</button>
+        <button class="HighScore" id="highScore">0</button>
+        <div class="RedCircle button" onclick="check('red')" id='red'></div>
+        <div class="GreenCircle button" onclick="check('green')" id='green'></div>
+        <div class="BlueCircle button" onclick="check('blue')" id='blue'></div>
+        <div class="YellowCircle button" onclick="check('yellow')" id='yellow'></div>
+        <div id="status-indicator"></div>
+    </div>
+</body>
+<script src="Assignment2.js"></script>
+
+</html>

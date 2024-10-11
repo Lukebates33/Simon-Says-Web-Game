@@ -1,0 +1,122 @@
+.Game {
+    width: 1500px;
+    height: 800px;
+    margin: 50px;
+    outline: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CentreCircle {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.button {
+    cursor: pointer;
+    position: absolute;
+    border-style: solid;
+    border-width: 50%;
+    border-radius: 50%;
+    border-color: black;
+}
+
+.BlueCircle {
+    position: absolute;
+    height: 220px;
+    width: 220px;
+    top: 480px;
+    left: 850px;
+    background-color: blue;
+    border-style: solid;
+    border: 50%;
+    border-radius: 50%;
+    border-color: black;
+    cursor: pointer;
+}
+
+.RedCircle {
+    position: absolute;
+    height: 220px;
+    width: 220px;
+    top: 170px;
+    left: 850px;
+    background-color: red;
+    border-style: solid;
+    border: 50%;
+    border-radius: 50%;
+    border-color: black;
+    cursor: pointer;
+}
+
+.GreenCircle {
+    position: absolute;
+    height: 220px;
+    width: 220px;
+    top: 170px;
+    left: 540px;
+    background-color: green;
+    border-style: solid;
+    border: 50%;
+    border-radius: 50%;
+    border-color: black;
+    cursor: pointer;
+}
+
+.YellowCircle {
+    position: absolute;
+    height: 220px;
+    width: 220px;
+    top: 480px;
+    left: 540px;
+    background-color: yellow;
+    border-style: solid;
+    border: 50%;
+    border-radius: 50%;
+    border-color: black;
+    cursor: pointer;
+}
+
+#status-indicator {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    vertical-align: center;
+    background-color: red;
+    top: 500px;
+}
+
+#start {
+    font-family: Orbitron;
+    position: absolute;
+    vertical-align: center;
+    border: 2px black;
+    border-radius: 15%;
+    padding: 5px;
+    font-size: 20px;
+}
+
+#highScore {
+    font-family: Orbitron;
+    position: absolute;
+    left: 842px;
+    border: 2px black;
+    border-radius: 15%;
+    padding: 5px;
+    font-size: 20px;
+}
+
+#score {
+    font-family: Orbitron;
+    position: absolute;
+    left: 730px;
+    border: 2px black;
+    border-radius: 15%;
+    padding: 5px;
+    font-size: 20px;
+}
